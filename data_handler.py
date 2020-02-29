@@ -7,7 +7,7 @@ def data_reader(filename, returned_line_idx):
     		data = list(reader)
 	return data[returned_line_idx]
 
-
+# used this for debugging
 if __name__ == "__main__":
 	x = data_reader('pics_data.csv', 0)
 	print(x)
