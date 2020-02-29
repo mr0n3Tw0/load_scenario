@@ -10,7 +10,7 @@ pic_date_list = data_reader('words_data.csv', 0)
 
 class TestUserBehavior(TaskSet):
 	
-	@task(2)
+	@task(2) # @task is a decorator, takes an optional weight argument that can be used to specify the task’s execution ratio. 
 	def search(self):
 		self.client.get(f'/search?text={choice(words_list)}')
 
