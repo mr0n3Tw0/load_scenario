@@ -14,3 +14,5 @@ locustfile.py - scenario file, before start need to download locust, for sure us
    and open http://127.0.0.1
    
    take port from CLI when you start locust, exemple of CLI output: Starting web monitor at http://*:8089
+   
+4. Define "Number of total users to simulate", "Hatch rate (users spawned/second)", "Host" (host for this scenario - https://bash.im)
