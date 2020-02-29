@@ -1,9 +1,11 @@
 from locust import HttpLocust, TaskSet, task, between
 from random import choice, randint
+from data_handler import data_reader
+import csv
 
-pic_date_list = [201901, 201902, 201903, 201904, 201905, 201906, 201907, 201908, 201909, 201910, 201911, 201912, 202001, 202002,]
-	
-words_list = ['lawyer', 'advertising', 'date', 'available', 'high', 'hope', 'pepper', 'weakness', 'restoration', 'tactic', 'cluster', 'twilight', 'glue', 'performance', 'cabin', 'sodium', 'earthflax',]
+
+words_list = data_reader('pics_data.csv', 0)
+pic_date_list = data_reader('words_data.csv', 0)
 
 
 class TestUserBehavior(TaskSet):
