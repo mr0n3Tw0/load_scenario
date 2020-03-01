@@ -15,7 +15,7 @@ locustfile.py - scenario file, before start need to download locust, for sure us
 
          $ pip install locust
    
-   if you have a troulbes with gcc compiler run it: 
+   if you have a troubles with gcc compiler run it: 
          
          $ sudo apt install python3-dev
          
