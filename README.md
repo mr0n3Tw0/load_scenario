@@ -10,9 +10,12 @@ locustfile.py - scenario file, before start need to download locust, for sure us
 2. Download locust - $ pip install locust
    
    if you have a troulbes with gcc compiler run it: 
+         
          $ sudo apt install python3-dev
+         
          $ sudo apt install libevent-dev
-   example for advanced packaging tool (Ubuntu, Debian etc.)
+   
+example for advanced packaging tool (Ubuntu, Debian etc.)
 
 3. Start scenario - $ locust 
    
