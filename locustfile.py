@@ -4,8 +4,8 @@ from data_handler import data_reader
 import csv
 
 
-words_list = data_reader('pics_data.csv', 0)
-pic_date_list = data_reader('words_data.csv', 0)
+words_list = data_reader('words_data.csv', 0)
+pic_date_list = data_reader('pics_data.csv', 0)
 
 
 class TestUserBehavior(TaskSet):
