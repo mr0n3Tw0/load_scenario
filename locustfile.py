@@ -20,7 +20,7 @@ class TestUserBehavior(TaskSet):
 
 	@task(2)
 	def change_page(self):
-		self.client.get(f'/index{randint(1, 3125)}')
+		self.client.get(f'/index/{randint(1, 3125)}')
 
 
 class TestUser(HttpLocust):
