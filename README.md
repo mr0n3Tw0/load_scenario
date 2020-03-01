@@ -21,7 +21,7 @@ locustfile.py - scenario file, before start need to download locust, for sure us
          
          $ sudo apt install libevent-dev
    
-example for advanced packaging tool (Ubuntu, Debian etc.)
+   example for advanced packaging tool (Ubuntu, Debian etc.)
 
 3. Start scenario: 
 
